@@ -22,14 +22,14 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [x] **Picocss is used to style HTML elements**
+- [] **Picocss is used to style HTML elements**
 - [x] **The content creator items are displayed in a creative format, like cards instead of a list**
 - [x] **An image of each content creator is shown on their content creator card**
 
 The following **additional** features are implemented:
 
 - [x] **Smooth scrolling between sections on the homepage**
-- [x] **A polished welcome page with modern UI elements and buttons**
+- [] **A polished welcome page with modern UI elements and buttons**
 
 ## Video Walkthrough
 
