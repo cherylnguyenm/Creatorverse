@@ -1,0 +1,59 @@
+html {
+    scroll-behavior: smooth; 
+  }
+  
+  .container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .welcome {
+    text-align: center;
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .welcome h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  .welcome p {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .buttons button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  section#creators-list {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  section#creators-list h2 {
+    text-align: center;
+  }
+  
