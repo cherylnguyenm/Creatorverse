@@ -35,7 +35,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-👉🏿[Watch the video](https://i.imgur.com/VrAovVQ.mp4)
+👉🏿<blockquote class="imgur-embed-pub" lang="en" data-id="a/mAPKecY"  ><a href="//imgur.com/a/mAPKecY">Video</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 GIF created with ...  👉🏿 LiceCap
 
