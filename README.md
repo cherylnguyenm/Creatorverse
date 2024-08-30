@@ -35,7 +35,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<video src='https://i.imgur.com/VrAovVQ.mp4' title='Video Walkthrough' width='' alt='Video Walkthrough' controls></video>
+👉🏿[Watch the video](https://i.imgur.com/VrAovVQ.mp4)
 
 GIF created with ...  👉🏿 LiceCap
 
