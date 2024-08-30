@@ -22,20 +22,20 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [] **Picocss is used to style HTML elements**
+- [ ] **Picocss is used to style HTML elements**
 - [x] **The content creator items are displayed in a creative format, like cards instead of a list**
 - [x] **An image of each content creator is shown on their content creator card**
 
 The following **additional** features are implemented:
 
 - [x] **Smooth scrolling between sections on the homepage**
-- [] **A polished welcome page with modern UI elements and buttons**
+- [ ] **A polished welcome page with modern UI elements and buttons**
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='https://i.imgur.com/4iUzghk.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+👉🏿<img src='https://i.imgur.com/VrAovVQ.mp4' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with ...  👉🏿 LiceCap
 

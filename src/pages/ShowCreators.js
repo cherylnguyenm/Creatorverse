@@ -57,7 +57,7 @@ const ShowCreators = () => {
                 name={creator.name}
                 url={creator.url}
                 description={creator.description}
-                imageURL={creator.imageURL}
+                imageurl={creator.imageurl}
               />
             ))
           ) : (

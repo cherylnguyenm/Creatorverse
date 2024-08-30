@@ -7,7 +7,7 @@ const EditCreator = () => {
   const [name, setName] = useState('');
   const [url, setUrl] = useState('');
   const [description, setDescription] = useState('');
-  const [imageURL, setImageURL] = useState('');
+  const [imageurl, setImageURL] = useState('');
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -38,7 +38,7 @@ const EditCreator = () => {
     // Update the creator's information in the database
     const { error } = await supabase
       .from('creators')
-      .update({ name, url, description, imageurl: imageURL })
+      .update({ name, url, description, imageurl })
       .eq('id', id);
 
     if (error) {
@@ -90,10 +90,10 @@ const EditCreator = () => {
           placeholder="Description"
           required
         />
-        <label htmlFor="imageURL">Image URL</label>
+        <label htmlFor="imageurl">Image URL</label>
         <input
-          id="imageURL"
-          value={imageURL}
+          id="imageurl"
+          value={imageurl}
           onChange={(e) => setImageURL(e.target.value)}
           placeholder="Image URL (optional)"
         />

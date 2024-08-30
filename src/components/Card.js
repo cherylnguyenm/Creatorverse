@@ -2,11 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Card.css';
 
-const Card = ({ id, name, url, description, imageURL }) => {
+const Card = ({ id, name, url, description, imageurl }) => {
   return (
     <div className="card">
-      {imageURL ? (
-        <img src={imageURL} alt={name} className="card-image" />
+      {imageurl ? (
+        <img src={imageurl} alt={name} className="card-image" />
       ) : (
         <div className="placeholder-image">No Image Available</div>
       )}

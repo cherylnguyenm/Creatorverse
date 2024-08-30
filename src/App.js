@@ -17,8 +17,8 @@ const RoutesComponent = ({ creators, addCreator, updateCreator }) => {
 
 const App = () => {
   const [creators, setCreators] = useState([
-    { id: 1, name: 'John Doe', url: 'https://www.youtube.com/johndoe', description: 'Great coding tutorials.', imageURL: 'someImageURL' },
-    { id: 2, name: 'Jane Smith', url: 'https://www.twitch.tv/janesmith', description: 'Indie games streamer.', imageURL: 'someImageURL' }
+    { id: 1, name: 'John Doe', url: 'https://www.youtube.com/johndoe', description: 'Great coding tutorials.', imageurl: 'someImageURL' },
+    { id: 2, name: 'Jane Smith', url: 'https://www.twitch.tv/janesmith', description: 'Indie games streamer.', imageurl: 'someImageURL' }
   ]);
 
   const addCreator = (newCreator) => {

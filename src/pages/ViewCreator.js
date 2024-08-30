@@ -9,6 +9,7 @@ const ViewCreator = () => {
 
   useEffect(() => {
     const fetchCreator = async () => {
+      setLoading(true);
       const { data, error } = await supabase
         .from('creators')
         .select('*')
@@ -36,7 +37,13 @@ const ViewCreator = () => {
       <a href={creator.url} target="_blank" rel="noopener noreferrer">
         <button>Visit Channel</button>
       </a>
-      {creator.imageurl && <img src={creator.imageurl} alt={creator.name} style={{ maxWidth: '200px' }} />}
+      {creator.imageurl && (
+        <img
+          src={creator.imageurl}
+          alt={creator.name}
+          style={{ width: '200px', height: 'auto', borderRadius: '8px' }}
+        />
+      )}
     </div>
   );
 };
